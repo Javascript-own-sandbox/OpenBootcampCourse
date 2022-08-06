@@ -1,0 +1,17 @@
+{
+  "name": "09-errores",
+  "version": "1.0.0",
+  "description": "gestion de errores en javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "errores"
+  ],
+  "author": "Erica Arenas",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^3.8.1"
+  }
+}

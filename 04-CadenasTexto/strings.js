@@ -1,0 +1,12 @@
+let myName = 'Erica';
+let mySurname = 'Arenas';
+let estudiante = myName.concat(' ', mySurname);
+let estudianteMayus = estudiante.toUpperCase;
+let estudianteMinus = estudiante.toLowerCase;
+let estudianteLength = estudiante.length;
+// let firstLetterName = myName.slice(0,1);
+let firstLetterName = myName.charAt(0);
+let lastLetterSurname = mySurname.charAt(mySurname.length-1);
+let noSpaces = estudiante.replace(' ', '');
+let nameContent = (estudiante.includes(myName))? true: false;
+console.log('myName :>> ', nameContent);
